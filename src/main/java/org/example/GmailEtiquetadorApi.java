@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class GmailEtiquetadorApp extends JFrame {
+public class GmailEtiquetadorApi extends JFrame {
 
     private static final String NOMBRE_APP = "Gmail API Java Quickstart";
     private static final String RUTA_CREDENCIALES = "src/main/resources/credentials.json";
@@ -28,7 +28,7 @@ public class GmailEtiquetadorApp extends JFrame {
     private static final String NOMBRE_ETIQUETA_WORK_IN_PROGRESS = "Work.in.Progress";
     private static final String NOMBRE_ETIQUETA_TO_BE_DONE = "To.be.Done";
 
-    public GmailEtiquetadorApp() {
+    public GmailEtiquetadorApi() {
 
         setTitle("App Etiquetas Gmail");
         setSize(400, 300);
@@ -119,7 +119,7 @@ public class GmailEtiquetadorApp extends JFrame {
     public static void main(String[] args) {
 
         SwingUtilities.invokeLater(() -> {
-            GmailEtiquetadorApp app = new GmailEtiquetadorApp();
+            GmailEtiquetadorApi app = new GmailEtiquetadorApi();
             app.setVisible(true);
         });
     }

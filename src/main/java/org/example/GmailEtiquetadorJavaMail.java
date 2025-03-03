@@ -4,10 +4,10 @@ import javax.mail.*;
 import java.util.Properties;
 
 
-public class GmailLabelerJavaMail {
+public class GmailEtiquetadorJavaMail {
 
     private static final String EMAIL = "marcoscanopsp@gmail.com";
-    private static final String PASSWORD = "tmfo rccn zrks epbx";
+    private static final String PASSWORD = "";
 
     public static void main(String[] args) {
         try {
